@@ -1,5 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
 html,body{
     margin: 0 0;
+    font-family: 'Heebo', sans-serif;
+
 }
 .container{
     display: flex;
@@ -14,7 +18,9 @@ h2{
 .about_me{
     display: flex;
     padding:2%;
-    background-color: rgb(146, 168, 209);
+    background-image: url('assets/bluee.png');
+    background-size: auto 100%;
+ 
 }
 
 .about_me_box{
@@ -37,13 +43,15 @@ h2{
     left:0;
 
 }
+.grids{
+    padding: 5%;
+}
 
 .grid-1{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
-    gap: 10%;
-    margin-bottom: 20px;
+    margin-bottom: 5%;
     gap: 7%;
 
 }
@@ -84,7 +92,6 @@ h2{
 
 .about_me_box p{
     font-size: 2em;
-    color:grey;
     font-weight: bold;
 }
 .about_me_box h2{
@@ -93,10 +100,11 @@ h2{
 
 .contact_me{
     font-size: 2em;
-    background-color: rgb(146, 168, 209);
+    background-color: #3AAFA9;
     padding:2%;
     display: grid;
     grid-template-columns: 2fr 2fr;
+    color:white;
 }
 .contact_me img{
     height: 100%;
